@@ -1,0 +1,37 @@
+.m-width{
+    width: 50%;
+}
+.card{
+    width: 85%;
+}
+.card a{
+    color: rgb(36, 36, 36);
+}
+.card:hover a{
+    background-color: red;
+    color: white;
+}
+
+.sensor-width{
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:688px) {
+    .card{
+        width: auto;
+    }
+    .card a{
+        color: white;
+        background-color: red;
+    }
+    .m-width{
+        width: 100%;
+    }
+    .sensor-width{
+       
+        box-sizing: border-box;
+    }
+    
+}
